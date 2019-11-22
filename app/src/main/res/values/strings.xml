@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LocalizationTest</string>
+    <string name="hello_world">Hello World!!!</string>
+    <string name="language">English</string>
 </resources>

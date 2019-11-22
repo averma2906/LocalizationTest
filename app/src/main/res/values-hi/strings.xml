@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocalizationTest</string>
+    <string name="language">हिन्दी</string>
+    <string name="hello_world">नमस्ते दुनिया !!!</string>
+</resources>
