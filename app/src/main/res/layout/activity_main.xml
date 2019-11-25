@@ -10,7 +10,7 @@
         android:id="@+id/responseTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Response!"
+        android:text="@string/hello_world"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 
@@ -18,6 +18,28 @@
         android:id="@+id/en_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="English" />
+        android:text="@string/language"
+        android:layout_below="@+id/responseTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="SetEnglish"/>
+    <Button
+        android:id="@+id/hi_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hindi"
+        android:layout_below="@+id/en_button"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="SetHindi"/>
+    <Button
+        android:id="@+id/ru_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/russian"
+        android:layout_below="@+id/hi_button"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="SetRussian"/>
 
 </RelativeLayout>
